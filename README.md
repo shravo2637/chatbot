@@ -22,7 +22,7 @@ max_characters = 100000  # THAT IS AROUND 25,000 tokens
 pdf_text = pdf_text[:max_characters]
 
 
-genai.configure(api_key="AIzaSyCRd6i3Vajclfx1deM3i7rZQMQPPuBYxjU")
+genai.configure(api_key="google_api_key")
 
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
